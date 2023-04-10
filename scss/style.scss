@@ -1,0 +1,40 @@
+@import url("./imports/index.scss");
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.card {
+    width: calc(375px - 4rem);
+
+    margin: 1.5rem;
+    padding: 1.5rem;
+
+    background-color: white;
+
+    border-radius: 1rem;
+    img {
+        margin-bottom: 2rem;
+
+        border-radius: 0.75rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        font-weight: 700;
+
+        text-align: center;
+    }
+
+    p {
+        margin-block: 1rem;
+
+        font-size: 15px;
+        font-weight: 400;
+        color: var(--gray-blue);
+
+        text-align: center;
+    }
+}
